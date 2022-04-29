@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../assets/data.json';
 import JobPostingCard from './JobPostingCard';
+import Footer from './Footer';
 import './css/App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           return <JobPostingCard jobData={job} key={job.id}/>
         })}
       </main>
+      <Footer />
     </div>
   );
 }
