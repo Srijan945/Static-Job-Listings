@@ -1,0 +1,16 @@
+.article{
+    padding: 1.25rem 1.25rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 10px hsl(180, 17%, 80%);
+    border-radius: 0.3125rem;
+    position: relative;
+    background-color: white;
+    /* border-left-color: 10px solid hsl(180, 29%, 50%); */
+}
+.company__logo{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 1.25rem;
+}

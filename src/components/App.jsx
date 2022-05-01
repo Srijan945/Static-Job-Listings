@@ -7,7 +7,10 @@ import './css/App.css';
 function App() {
   return (
     <div className="app">
-      <main className='jobs'>
+      <div className="app__imageContainer">
+        <img className='app__image' src="/images/bg-header-mobile.svg" alt="background"></img>
+      </div>
+      <main className='app__jobs'>
         {data.map(function(job){
           return <JobPostingCard jobData={job} key={job.id}/>
         })}

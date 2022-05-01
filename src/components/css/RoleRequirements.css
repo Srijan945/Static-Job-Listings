@@ -1,0 +1,22 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+.company__item{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 31%, 95%);
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.3125rem;
+}
+.company__item:hover{
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}

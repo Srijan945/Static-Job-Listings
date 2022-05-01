@@ -1,7 +1,12 @@
 .footer{ 
-    font-size: 0.6875rem; 
+    margin-top: 1rem;
+    font-size: 0.9375rem; 
     text-align: center; 
 }
 .footer__a{ 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(180, 8%, 52%); 
+    cursor: pointer;
+}
+.footer__a:hover{
+    color: hsl(180, 29%, 50%);
 }

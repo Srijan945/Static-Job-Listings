@@ -1,12 +1,12 @@
 import React from 'react';
 import RoleRequirements from './RoleRequirements';
-
+import "./css/EmployerDetails.css";
 function EmployerDetails({jobData}){
     
     const items = [jobData.role,jobData.level,...jobData.languages,...jobData.tools];
     return (
         <div>
-            <div>
+            <div className='company'>
                 <span className='company__name'>{jobData.company}</span>
                 { jobData.new && <span className='company__new'>NEW!</span>}
                 { jobData.featured && <span className='company__featured'>FEATURED</span>}

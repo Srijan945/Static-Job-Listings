@@ -1,9 +1,13 @@
 import React from 'react';
 import EmployerDetails from './EmployerDetails';
+import './css/JobPostingCard.css';
 function JobPostingCard({jobData}){
 
+    const styleSheet = {
+        borderLeft: "0.3125rem solid hsl(180, 29%, 50%)"
+    }
     return (
-        <article>
+        <article className='article' style={jobData.featured ? styleSheet: null}>
             <img className='company__logo' src={jobData.logo} alt="logo" />
             <EmployerDetails jobData={jobData}/>
         </article>
