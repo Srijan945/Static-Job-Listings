@@ -54,3 +54,15 @@ hr{
     border: 0;
     border-top: 0.0625rem solid grey;
 }
+@media only screen and (min-width: 1000px){
+    
+    .company__flexbox{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    hr{
+        display: none;
+    }
+}

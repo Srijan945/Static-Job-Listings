@@ -1,0 +1,62 @@
+.filterBox{
+    position: relative;
+    padding: 0.625rem;
+    top: -3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0.3125rem;
+    align-items: center;
+}
+.filterBox__tablets{
+    flex-grow: 1;
+}
+.filterBox__clear{
+    width: 3.125rem;
+    text-align: center;
+    color: grey;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+.tablet{
+    display: inline-block;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+.tablet__name{
+    display: inline-block;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 31%, 95%);
+    border-top-left-radius : 0.3125rem;
+    border-bottom-left-radius: 0.3125rem;
+}
+.tablet__remove{
+    position: relative;
+    top: 0.125rem;
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: hsl(180, 29%, 50%);
+    border-top-right-radius : 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+    cursor: pointer;
+}
+.tablet__remove:hover{
+    background-color: black;
+    transition: background-color 0.2s;
+}
+.remove__img{
+    font-size: 0.9375rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 0.1875rem;
+}
+.filterBox__clear > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:hsl(180, 29%, 50%);
+    transition: all 0.2s;
+}

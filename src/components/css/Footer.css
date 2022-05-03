@@ -4,8 +4,9 @@
     text-align: center; 
 }
 .footer__a{ 
-    color: hsl(180, 8%, 52%); 
+    color: black; 
     cursor: pointer;
+    text-decoration: none;
 }
 .footer__a:hover{
     color: hsl(180, 29%, 50%);

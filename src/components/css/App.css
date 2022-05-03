@@ -1,5 +1,6 @@
 .app{
   background-color: hsl(180, 52%, 96%);
+  min-height: 100vh;
 }
 .app__imageContainer,.app__image{
   height: 20vh;
@@ -10,5 +11,10 @@
 }
 .app__jobs{
   margin-top: 1rem;
-  padding: 1.25rem 2rem 0%;
+  padding: 1.25rem 5vw 0;
+} 
+@media only screen and (min-width: 1000px){
+  .app__jobs{
+    padding: 1.25rem 10vw 0;
+  }
 }
