@@ -22,7 +22,7 @@ function Filter({items,setItems}){
                         <div key={index} className="tablet">
                             <span className='tablet__name'>{item}</span>
                             <span className='tablet__remove' onClick={() => handleRemove(item)}>
-                                <img className='remove__img' src='/images/icon-remove.svg' alt='remove'/>
+                                <img className='remove__img' src='images/icon-remove.svg' alt='remove'/>
                             </span>
                         </div>
                     );  

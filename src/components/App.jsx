@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__imageContainer">
-        <img className='app__image' src="/images/bg-header-mobile.svg" alt="background"></img>
+        <img className='app__image' src="images/bg-header-mobile.svg" alt="background"></img>
       </div>
       <main className='app__jobs'>
         {(items.length!==0) && <Filter items={items} setItems={setItems}/>}
